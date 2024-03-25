@@ -1,0 +1,26 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+body
+    // Apply default styling to text.
+    @apply p-4 prose prose-neutral prose-headings:mb-2
+
+    // Scrolling.
+    scroll-behavior: smooth
+
+    // Text rendering.
+    font-synthesis: none
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -webkit-text-size-adjust: 100%
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar
+    display: none
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar
+    -ms-overflow-style: none /* IE and Edge */
+    scrollbar-width: none /* Firefox */

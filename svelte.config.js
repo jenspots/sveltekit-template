@@ -5,7 +5,7 @@ import { mdsvex } from 'mdsvex';
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
-	layout: 'src/components/MarkDown.svelte'
+	layout: 'src/layouts/MarkDown.svelte'
 };
 
 /** @type {import('@sveltejs/kit').Config} */

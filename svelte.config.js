@@ -9,7 +9,8 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-			sass: true
+			sass: true,
+			pug: true
 		}),
 		mdsvex({
 			extensions: ['.md'],

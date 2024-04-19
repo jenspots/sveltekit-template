@@ -1,0 +1,10 @@
+*
+!src
+!static
+!package.json
+!package-lock.json
+!postcss.config.js
+!svelte.config.js
+!tailwind.config.ts
+!tsconfig.json
+!vite.config.ts

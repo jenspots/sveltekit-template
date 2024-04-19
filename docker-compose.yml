@@ -1,0 +1,14 @@
+version: '3.9'
+
+name: sveltekit
+
+services:
+  sveltekit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sveltekit
+    hostname: sveltekit
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
